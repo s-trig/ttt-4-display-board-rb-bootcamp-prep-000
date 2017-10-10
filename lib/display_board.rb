@@ -3,10 +3,9 @@
 
 
 def display_board(board)
-  cell = "  "
-  row1 = cell + board[0] + "|" + cell + board[1] + "|" + cell + board[2]
-  row2 = cell + board[3] + "|" + cell + board[4] + "|" + cell + board[5]
-  row3 = cell + board[6] + "|" + cell + board[7] + "|" + cell + board[8]
+  row1 = " " + board[0] + " " + "|" + " " + board[1] + " " + "|" + " " + board[2] + " " 
+  row2 = " " + board[3] + " " + "|" + " " + board[4] + " " + "|" + " " + board[5] + " "
+  row3 = " " + board[6] + " " + "|" + " " + board[7] + " " + "|" + " " + board[8] + " "
 
   puts row1
   puts "-----------"
